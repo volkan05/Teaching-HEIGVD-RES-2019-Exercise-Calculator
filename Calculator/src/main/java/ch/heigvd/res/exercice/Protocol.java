@@ -6,7 +6,7 @@ package ch.heigvd.res.exercice;
  */
 public class Protocol {
 	
-	public static final int DEFAULT_PORT = 2000;
+	public static final int DEFAULT_PORT = 3636;
 
 	public static final String CMD_ADD = "ADD";
 	public static final String CMD_SUB = "SUB";

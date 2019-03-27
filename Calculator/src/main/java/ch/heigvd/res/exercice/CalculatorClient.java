@@ -23,7 +23,8 @@ public class CalculatorClient {
 	BufferedReader in;
 	PrintWriter out;
 	boolean connected = false;
-	String userName;
+	String entree;
+
 
 	/**
 	 * This inner class implements the Runnable interface, so that the run()
@@ -36,10 +37,10 @@ public class CalculatorClient {
 			String notification;
 			try {
 				while ((connected && (notification = in.readLine()) != null)) {
-					LOG.log(Level.INFO, "Server notification for {1}: {0}", new Object[]{notification,userName});
+					System.out.println(notification);
 				}
 			} catch (IOException e) {
-				LOG.log(Level.SEVERE, "Connection problem in client used by {1}: {0}", new Object[]{e.getMessage(),userName});
+				LOG.log(Level.SEVERE, "Connection problem in client used by {0}", e.getMessage());
 				connected = false;
 			} finally {
 				cleanup();
@@ -54,15 +55,14 @@ public class CalculatorClient {
 	 * 
 	 * @param serverAddress the IP address used by the Presence Server
 	 * @param serverPort the port used by the Presence Server
-	 * @param userName the name of the user, used as a parameter for the HELLO command
 	 */
-	public void connect(String serverAddress, int serverPort, String userName) {
+	public void connect(String serverAddress, int serverPort) {
 		try {
 			clientSocket = new Socket(serverAddress, serverPort);
 			in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 			out = new PrintWriter(clientSocket.getOutputStream());
 			connected = true;
-			this.userName = userName;
+			this.entree = entree;
 		} catch (IOException e) {
 			LOG.log(Level.SEVERE, "Unable to connect to server: {0}", e.getMessage());
 			cleanup();
@@ -70,17 +70,18 @@ public class CalculatorClient {
 		}
 		// Let us start a thread, so that we can listen for server notifications
 		new Thread(new NotificationListener()).start();
-		
-		// Let us send the HELLO command to inform the server about who the user
-		// is. Other clients will be notified.
-		out.println("HELLO " + userName);
+
+	}
+
+	public void sendRequest(String entree){
+		out.println(entree);
 		out.flush();
 	}
 
 	public void disconnect() {
-		LOG.log(Level.INFO, "{0} has requested to be disconnected.", userName);
+		LOG.log(Level.INFO, "{0} has requested to be disconnected.", entree);
 		connected = false;
-		out.println("BYE");
+		//out.println("BYE");
 		cleanup();
 	}
 
