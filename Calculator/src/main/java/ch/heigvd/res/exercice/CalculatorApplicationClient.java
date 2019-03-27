@@ -1,5 +1,7 @@
 package ch.heigvd.res.exercice;
 
+import java.util.Scanner;
+
 /**
  * The server reacts to the following commands, defined in the protocol:
  * - HELLO name: the user "behind" the client is not anonymous anymore
@@ -9,26 +11,23 @@ package ch.heigvd.res.exercice;
  * 
  * @author Olivier Liechti
  */
-public class CalculatorApplication {
+public class CalculatorApplicationClient {
 
 	/**
 	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
-		System.setProperty("java.util.logging.SimpleFormatter.format", "%5$s %n");
+		Scanner sc = new Scanner(System.in);
+		CalculatorClient calculator = new CalculatorClient();
+		String requete = "";
+		calculator.connect("localhost", Protocol.DEFAULT_PORT);
 
-		Thread listenThread = new Thread(new CalculatorServer());
-		listenThread.start();
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-
-		CalculatorClient c1 = new CalculatorClient();
-		c1.connect("localhost", Protocol.DEFAULT_PORT, "Sacha");
-		c1.disconnect();
-
+		do{
+			requete = sc.nextLine();
+			calculator.sendRequest(requete);
+		}while(!requete.equals(Protocol.CMD_KILL));
+		calculator.disconnect();
+		return;
 	}
 
 }
