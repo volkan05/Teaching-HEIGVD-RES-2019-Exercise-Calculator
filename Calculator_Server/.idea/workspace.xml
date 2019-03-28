@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a8a3a-c871-425e-be07-5f4ece9274cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Calculator_Client/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator_Client/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator_Client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/Calculator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/src/main/java/ch/heigvd/res/exercice/CalculatorClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/src/main/java/ch/heigvd/res/exercice/CalculatorServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/src/main/java/ch/heigvd/res/exercice/Protocol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/target/classes/ch/heigvd/res/exercice/CalculatorApplicationClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/target/classes/ch/heigvd/res/exercice/CalculatorApplicationServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/target/classes/ch/heigvd/res/exercice/CalculatorClient$NotificationListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/target/classes/ch/heigvd/res/exercice/CalculatorClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/target/classes/ch/heigvd/res/exercice/CalculatorServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/target/classes/ch/heigvd/res/exercice/Protocol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator_Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator_Client/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Client/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553775422485" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553782354553" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator_Client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,12 +192,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553769767206</updated>
-      <workItem from="1553769768790" duration="2505000" />
+      <workItem from="1553769768790" duration="3126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2505000" />
+    <option name="totallyTimeSpent" value="3126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />

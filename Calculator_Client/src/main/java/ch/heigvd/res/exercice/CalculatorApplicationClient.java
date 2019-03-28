@@ -20,7 +20,7 @@ public class CalculatorApplicationClient {
 		Scanner sc = new Scanner(System.in);
 		CalculatorClient calculator = new CalculatorClient();
 		String requete = "";
-		calculator.connect("localhost", Protocol.DEFAULT_PORT);
+		calculator.connect(args[0], Protocol.DEFAULT_PORT);
 
 		do{
 			requete = sc.nextLine();
