@@ -77,7 +77,7 @@ public class CalculatorServer {
 				LOG.info("Lecture et traitement des requêtes du client connecté");
 				while ( (shouldRun) && (line = in.readLine()) != null ) {
 					String[] tokens = line.split(" ");
-					String op = tokens[0].toUpperCase();
+					String op = tokens[0];
 					if(tokens.length != 3 && op.compareTo(Protocol.CMD_KILL) != 0 || op.compareTo(Protocol.CMD_KILL) == 0 && tokens.length != 1){
 						out.println("Erreur: vous n'avez pas entré le bon nombre d'arguments");
 						out.flush();
@@ -105,7 +105,7 @@ public class CalculatorServer {
 											Double.parseDouble(tokens[2])) : "Erreur car division par 0");
 							break;
 						case (Protocol.CMD_KILL):
-							out.println("La commande KILL a été reçue. Fermeture de la connexion en cours...");
+							out.println("La commande KILL a été reçue. Fermeture de la connexion...");
 							shouldRun = false;
 							break;
 						default:

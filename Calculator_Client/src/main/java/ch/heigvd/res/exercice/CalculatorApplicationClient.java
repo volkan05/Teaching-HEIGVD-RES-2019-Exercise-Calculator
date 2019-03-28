@@ -23,11 +23,10 @@ public class CalculatorApplicationClient {
 		calculator.connect(args[0], Protocol.DEFAULT_PORT);
 
 		do{
-			requete = sc.nextLine();
+			requete = sc.nextLine().toUpperCase();
 			calculator.sendRequest(requete);
-		}while(!requete.equals(Protocol.CMD_KILL));
+		}while(requete.compareTo(Protocol.CMD_KILL) != 0);
 		calculator.disconnect();
-		//return;
-	}
 
+	}
 }
