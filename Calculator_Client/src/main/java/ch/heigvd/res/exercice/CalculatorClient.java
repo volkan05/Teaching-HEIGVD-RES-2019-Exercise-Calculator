@@ -79,9 +79,8 @@ public class CalculatorClient {
 	}
 
 	public void disconnect() {
-		LOG.log(Level.INFO, "{0} has requested to be disconnected.", entree);
+		LOG.log(Level.INFO, "Client has requested to be disconnected.", entree);
 		connected = false;
-		//out.println("BYE");
 		cleanup();
 	}
 
