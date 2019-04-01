@@ -13,5 +13,4 @@ public class Protocol {
 	public static final String CMD_MULT = "MULT";
 	public static final String CMD_DIV = "DIV";
 	public static final String CMD_KILL = "KILL";
-
 }
