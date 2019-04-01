@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e5875a-cc9d-46a6-8abb-25e59d793c8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Calculator_Client-1.0-SNAPSHOT-standalone.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Calculator_Client-1.0-SNAPSHOT-standalone.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Calculator_Client-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/heigvd/res/exercice/CalculatorApplicationClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/heigvd/res/exercice/CalculatorClient$NotificationListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/heigvd/res/exercice/CalculatorClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/heigvd/res/exercice/Protocol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calculator_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator_Server/src/main/java/ch/heigvd/res/exercice/CalculatorServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Server/src/main/java/ch/heigvd/res/exercice/CalculatorServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator_Server/target/Calculator_Server-1.0-SNAPSHOT-standalone.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Server/target/Calculator_Server-1.0-SNAPSHOT-standalone.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator_Server/target/Calculator_Server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Server/target/Calculator_Server-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator_Server/target/classes/ch/heigvd/res/exercice/CalculatorServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Server/target/classes/ch/heigvd/res/exercice/CalculatorServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator_Server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Server/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,10 +29,11 @@
     <session id="1999065464">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -70,19 +53,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
+            <state relative-caret-position="141">
               <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="425">
               <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
             </state>
           </provider>
@@ -136,7 +119,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="405" />
     <option name="y" value="-30" />
     <option name="width" value="980" />
@@ -148,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,14 +175,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553789516541" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator_Server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -218,7 +201,6 @@
     <configuration name="CalculatorApplicationClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.heigvd.res.exercice.CalculatorApplicationClient" />
       <module name="exercice-calculator" />
-      <option name="PROGRAM_PARAMETERS" value="localhost" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ch.heigvd.res.exercice.*" />
@@ -247,23 +229,24 @@
       <updated>1553767880066</updated>
       <workItem from="1553767881439" duration="514000" />
       <workItem from="1553775481491" duration="4108000" />
+      <workItem from="1553789543364" duration="1108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4622000" />
+    <option name="totallyTimeSpent" value="5730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19261745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
@@ -275,6 +258,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,7 +267,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.3295302" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.22885907" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.22885907" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,17 +299,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="141">
+          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/heigvd/res/exercice/CalculatorApplicationClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+        <state relative-caret-position="425">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
         </state>
       </provider>
     </entry>
